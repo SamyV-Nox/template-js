@@ -9,8 +9,7 @@
     "server:build": "tsc",
     "client:build": "babel client/src --out-dir client/public/build",
     "build": "webpack --mode=production",
-    "watch": "webpack --mode=development --watch",
-    "start": "webpack serve --mode=development"
+    "watch": "webpack --mode=development --watch"
   },
   "author": "Samy Van Calster",
   "homepage": "https://gitlab.univ-lille.fr/jsae",
